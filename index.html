@@ -4,14 +4,16 @@
 <head>
 <style>
 
-/* rounded corner for header */
-#div1{border-radius: 25px; background-color:rgb(227,233,224); padding: 25px; width: 200px; height: 150px; 
+/* rounded corners*/
+#div1{border-radius: 25px; background-color:rgb(227,233,224); padding: 25px; width: 800px; height: 100px; 
 }
 #div2{border-radius: 25px; background-color:rgb(227,233,224); padding: 25px; width: 800px; height: 150px; 
 }
+#div{border-radius: 25px; background-color:rgb(227,233,224); padding: 25px; width: 800px; height: 150px; 
+}
 
 header {
-    background-color:rgb(227, 233, 224); color:black; padding: 20px; text-align: center;
+    background-color:rgb(227, 233, 224); color:black; padding: 20px; font-family:'Courier New', Courier, monospace;text-align: center; 
 }
 main {
     background-color:rgb(227, 233, 224) ;max-width: 800px; margin: 0 auto; padding: 10px; font-family:'Courier New', Courier, monospace
@@ -27,12 +29,12 @@ footer{
 <body> 
 
 <header>
-    <div id="div1"<h1>My Profile Page</h1> </div>
+    <div id="div1"><h1>My Profile Page</h1> </div>
 </header> 
 
 <main>
     <h2>Welcome to My Profile Page</h2>
-    <div id="div2"<p>My name is <b>Phung(foom)</b>, I recently graduated with a Bachelors in Data Science from the University of Houston - Downtown.
+    <div id="div2"><p>My name is <b>Phung(foom)</b>, I recently graduated with a Bachelors in Data Science from the University of Houston - Downtown.
         I enjoy learning workflows and figuring out where to focus for optimization. My projects and undergrad research highlight the aspects of data science I want to keep building on. 
         In my undergrad research role,I worked in R preprocessing Likert survey data from an IRB-approved Criminal Justice study, then produced the group summaries and quantitative 
         results the faculty team used in their writeups.
@@ -45,7 +47,7 @@ footer{
 </main> 
 
 <footer>
-    <p>Consider me for a new explorer on your team</p>
+    <div id="div3"><p>Consider me for a new explorer on your team</p></div>
 </footer>
 
 </body>
